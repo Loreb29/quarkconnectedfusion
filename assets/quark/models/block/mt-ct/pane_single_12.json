@@ -1,0 +1,14 @@
+{
+  "loader":"fusion:model",
+  "type":"connecting",
+  "connections":{
+  "pane":{
+    "type":"is_same_state"
+  }
+  },
+  "parent":"quark:block/mt-ct/pane_single",
+  "textures":{
+    "pane":"quark:block/mt-ct/glass/framed-11",
+    "edge":"quark:block/mt-ct/glass/f0-1"
+  }
+}

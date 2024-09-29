@@ -1,0 +1,20 @@
+{
+  "loader":"fusion:model",
+  "type":"connecting",
+  "connections":{
+  "pane":{
+    "type":"is_same_block"
+  },
+  "ssouth":{
+    "type":"match_state",
+    "block":"quark:gray_framed_glass_pane",
+    "properties":{"south":"true","east":["false","true"],"north":["false","true"],"west":["false","true"],"waterlogged":["false","true"]}
+  }
+  },
+  "parent":"quark:block/mt-ct/pane_south",
+  "textures":{
+    "pane":"quark:block/mt-ct/glass/framed-3",
+    "edge":"quark:block/mt-ct/glass/f0-1",
+    "ssouth":"quark:block/mt-ct/glass/f3-4"
+  }
+}

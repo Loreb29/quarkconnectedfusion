@@ -1,0 +1,26 @@
+{
+  "loader":"fusion:model",
+  "type":"connecting",
+  "connections":{
+  "pane":{
+    "type":"is_same_block"
+  },
+  "seast":{
+    "type":"match_state",
+    "block":"quark:pink_framed_glass_pane",
+    "properties":{"east":"true","north":["false","true"],"south":["false","true"],"west":["false","true"],"waterlogged":["false","true"]}
+  },
+  "swest":{
+    "type":"match_state",
+    "block":"quark:pink_framed_glass_pane",
+    "properties":{"west":"true","north":["false","true"],"south":["false","true"],"east":["false","true"],"waterlogged":["false","true"]}
+  }
+  },
+  "parent":"quark:block/mt-ct/pane_hstraight",
+  "textures":{
+    "pane":"quark:block/mt-ct/glass/framed-13",
+    "edge":"quark:block/mt-ct/glass/f0-1",
+    "seast":"quark:block/mt-ct/glass/f13-3",
+    "swest":"quark:block/mt-ct/glass/f13-5"
+  }
+}

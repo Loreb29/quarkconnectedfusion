@@ -1,0 +1,32 @@
+{
+  "loader":"fusion:model",
+  "type":"connecting",
+  "connections":{
+  "pane":{
+    "type":"is_same_block"
+  },
+  "snorth":{
+    "type":"match_state",
+    "block":"quark:light_gray_framed_glass_pane",
+    "properties":{"north":"true","east":["false","true"],"south":["false","true"],"west":["false","true"],"waterlogged":["false","true"]}
+  },
+  "seast":{
+    "type":"match_state",
+    "block":"quark:light_gray_framed_glass_pane",
+    "properties":{"east":"true","north":["false","true"],"south":["false","true"],"west":["false","true"],"waterlogged":["false","true"]}
+  },
+  "ssouth":{
+    "type":"match_state",
+    "block":"quark:light_gray_framed_glass_pane",
+    "properties":{"south":"true","east":["false","true"],"north":["false","true"],"west":["false","true"],"waterlogged":["false","true"]}
+  }
+  },
+  "parent":"quark:block/mt-ct/pane_teast",
+  "textures":{
+    "pane":"quark:block/mt-ct/glass/framed-2",
+    "edge":"quark:block/mt-ct/glass/f0-1",
+    "snorth":"quark:block/mt-ct/glass/f2-2",
+    "seast":"quark:block/mt-ct/glass/f2-3",
+    "ssouth":"quark:block/mt-ct/glass/f2-4"
+  }
+}
